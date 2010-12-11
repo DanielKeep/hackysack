@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackysack-gtk", "hackysack-gtk\hackysack-gtk.csproj", "{E0F23472-97F4-4AF5-A304-69AFBB483FF2}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packages", "Packages.mdproj", "{ABB5926C-3789-4D6E-89F9-6CE5E26282C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackysack", "hackysack\hackysack.csproj", "{04860A96-C82C-425D-8D60-1D6A3980AE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackysack-cli", "hackysack-cli\hackysack-cli.csproj", "{C1974C01-E45A-4CEE-BB2C-03DDC0B6A482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04860A96-C82C-425D-8D60-1D6A3980AE76}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{04860A96-C82C-425D-8D60-1D6A3980AE76}.Debug|x86.Build.0 = Debug|Any CPU
+		{04860A96-C82C-425D-8D60-1D6A3980AE76}.Release|x86.ActiveCfg = Release|Any CPU
+		{04860A96-C82C-425D-8D60-1D6A3980AE76}.Release|x86.Build.0 = Release|Any CPU
+		{ABB5926C-3789-4D6E-89F9-6CE5E26282C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ABB5926C-3789-4D6E-89F9-6CE5E26282C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1974C01-E45A-4CEE-BB2C-03DDC0B6A482}.Debug|x86.ActiveCfg = Debug|x86
+		{C1974C01-E45A-4CEE-BB2C-03DDC0B6A482}.Debug|x86.Build.0 = Debug|x86
+		{C1974C01-E45A-4CEE-BB2C-03DDC0B6A482}.Release|x86.ActiveCfg = Release|x86
+		{C1974C01-E45A-4CEE-BB2C-03DDC0B6A482}.Release|x86.Build.0 = Release|x86
+		{E0F23472-97F4-4AF5-A304-69AFBB483FF2}.Debug|x86.ActiveCfg = Debug|x86
+		{E0F23472-97F4-4AF5-A304-69AFBB483FF2}.Debug|x86.Build.0 = Debug|x86
+		{E0F23472-97F4-4AF5-A304-69AFBB483FF2}.Release|x86.ActiveCfg = Release|x86
+		{E0F23472-97F4-4AF5-A304-69AFBB483FF2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = hackysack-cli\hackysack-cli.csproj
+		Policies = $0
+		$0.StandardHeader = $1
+		$1.inheritsSet = GPLv3License
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/plain
+		$0.TextStylePolicy = $3
+		$3.inheritsSet = null
+		$3.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $4
+		$4.IndentSwitchBody = True
+		$4.StatementBraceStyle = NextLine
+		$4.PlaceElseOnNewLine = True
+		$4.PlaceElseIfOnNewLine = True
+		$4.PlaceCatchOnNewLine = True
+		$4.PlaceFinallyOnNewLine = True
+		$4.PlaceWhileOnNewLine = True
+		$4.BeforeMethodCallParentheses = False
+		$4.BeforeMethodDeclarationParentheses = False
+		$4.BeforeConstructorDeclarationParentheses = False
+		$4.BeforeDelegateDeclarationParentheses = False
+		$4.NewParentheses = False
+		$4.IfParentheses = False
+		$4.WhileParentheses = False
+		$4.ForParentheses = False
+		$4.ForeachParentheses = False
+		$4.CatchParentheses = False
+		$4.SwitchParentheses = False
+		$4.LockParentheses = False
+		$4.UsingParentheses = False
+		$4.WithinIfParentheses = True
+		$4.WithinWhileParentheses = True
+		$4.WithinForParentheses = True
+		$4.WithinForEachParentheses = True
+		$4.WithinCatchParentheses = True
+		$4.WithinSwitchParentheses = True
+		$4.WithinLockParentheses = True
+		$4.WithinUsingParentheses = True
+		$4.inheritsSet = Mono
+		$4.inheritsScope = text/x-csharp
+		$4.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal

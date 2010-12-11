@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04860A96-C82C-425D-8D60-1D6A3980AE76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Hacky.Sack</RootNamespace>
+    <AssemblyName>hackysack</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="HackyAlu.cs" />
+    <Compile Include="CmpMask.cs" />
+    <Compile Include="HackyRom.cs" />
+    <Compile Include="HackyRam.cs" />
+    <Compile Include="HackyTty.cs" />
+    <Compile Include="HackyKb.cs" />
+    <Compile Include="HackyCpu.cs" />
+    <Compile Include="HackyMem.cs" />
+    <Compile Include="HackyBitop.cs" />
+    <Compile Include="MemoryDevice.cs" />
+    <Compile Include="StaticMem.cs" />
+    <Compile Include="HackyMb.cs" />
+    <Compile Include="HackyDebugRegisters.cs" />
+    <Compile Include="WriteTrapEvent.cs" />
+    <Compile Include="Hacky\HimgReader.cs" />
+    <Compile Include="DebugGlobals.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties InternalTargetFrameworkVersion="3.5">
+        <Policies>
+          <StandardHeader inheritsSet="LGPLv3License" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="Hacky\" />
+  </ItemGroup>
+</Project>
